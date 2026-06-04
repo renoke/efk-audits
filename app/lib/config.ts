@@ -2,8 +2,12 @@ import fs from 'fs';
 import path from 'path';
 
 function loadModelEnv(): Record<string, string> {
-  for (const dir of [process.cwd(), path.join(process.cwd(), '..')]) {
-    const file = path.join(dir, 'model.env');
+  const candidates = [
+    path.join(process.cwd(), 'model.env'),
+    path.join(process.cwd(), 'app', 'model.env'),
+    path.join(process.cwd(), '..', 'model.env'),
+  ];
+  for (const file of candidates) {
     if (!fs.existsSync(file)) continue;
     const config: Record<string, string> = {};
     for (const line of fs.readFileSync(file, 'utf-8').split('\n')) {
