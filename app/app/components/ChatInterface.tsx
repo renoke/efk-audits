@@ -105,6 +105,7 @@ export default function ChatInterface() {
       <header className={styles.header}>
         <h1>EFK Audits — Recherche &amp; Chat</h1>
         <p>Posez une question en FR / DE / EN / IT sur les rapports d&apos;audit du Contrôle fédéral des finances.</p>
+        <p>‼️Ne contient que les 200 audits dernièrements modifiés, dont 190 avec des rapports et 10 des recommandations. </p>
       </header>
 
       <div className={styles.messages}>
