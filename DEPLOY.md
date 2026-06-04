@@ -19,6 +19,13 @@ Only the Next.js app in **`app/`** is deployed. The ingestion pipeline (`ingest/
 
    Optional overrides (defaults already in `app/model.env`): `LLM_MODEL`, `EMBEDDING_MODEL`, `RERANK_MODEL`, `INFOMANIAK_PRODUCT_ID`, `LLM_TEMPERATURE`, `RETRIEVAL_CANDIDATES`, `RETRIEVAL_TOP_K`, `SYSTEM_PROMPT`.
 
+   **Password protection (optional):** set both to gate the whole app (page + API) behind HTTP Basic auth via `app/middleware.ts`. If either is unset, the app stays open.
+
+   | Name | Value | Notes |
+   |---|---|---|
+   | `BASIC_AUTH_USER` | *(chosen username)* | |
+   | `BASIC_AUTH_PASSWORD` | *(chosen password)* | secret |
+
 5. **Deploy**.
 
 ## B. CLI
