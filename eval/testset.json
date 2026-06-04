@@ -1,0 +1,33 @@
+{
+  "description": "EFK audits RAG retrieval eval. Each item: a natural-language question (not the audit title verbatim) in one of FR/DE/EN/IT, and the EFK publication folder id(s) of the audit(s) that should be retrieved.",
+  "items": [
+    { "id": "fr-01", "lang": "fr", "question": "Quelles faiblesses le CDF a-t-il relevées dans la gouvernance informatique du Fonds national suisse ?", "expected": [24494] },
+    { "id": "fr-02", "lang": "fr", "question": "Que recommande l'audit concernant l'évacuation de l'ancien dépôt de munitions de Mitholz ?", "expected": [25195] },
+    { "id": "fr-03", "lang": "fr", "question": "Quels risques pèsent sur le financement à long terme de la FIPOI à Genève ?", "expected": [25203] },
+    { "id": "fr-04", "lang": "fr", "question": "Quelles charges pour les générations futures ressortent du rapport de synthèse des audits précédents ?", "expected": [25502] },
+    { "id": "fr-05", "lang": "fr", "question": "Quelle est l'utilité de l'examen périodique des subventions de la Confédération ?", "expected": [25526] },
+    { "id": "fr-06", "lang": "fr", "question": "Comment fonctionne la péréquation financière 2026 entre la Confédération et les cantons ?", "expected": [25576] },
+    { "id": "fr-07", "lang": "fr", "question": "Quelles préférences tarifaires sont accordées aux pays en développement ?", "expected": [25481] },
+    { "id": "fr-08", "lang": "fr", "question": "Où en est la réalisation de l'autoroute A9 ?", "expected": [25703] },
+    { "id": "fr-09", "lang": "fr", "question": "Quels mécanismes visent un usage approprié de l'imagerie médicale ?", "expected": [22613] },
+    { "id": "fr-10", "lang": "fr", "question": "Quelles lacunes dans l'évaluation des services consulaires des représentations suisses à l'étranger ?", "expected": [25241] },
+
+    { "id": "de-01", "lang": "de", "question": "Welche Schwächen stellte die EFK beim Risikomanagement des UVEK fest?", "expected": [24325] },
+    { "id": "de-02", "lang": "de", "question": "Welche Erkenntnisse gibt es zu den Vorbereitungsarbeiten für den Kampfjet F-35A?", "expected": [25102] },
+    { "id": "de-03", "lang": "de", "question": "Welche Risiken bestehen beim Schlüsselprojekt SUPERB zur SAP-Einführung im öffentlichen Beschaffungswesen?", "expected": [25500] },
+    { "id": "de-04", "lang": "de", "question": "Welche Risiken bestehen bei Bürgschaften und Garantien des Bundes?", "expected": [25534] },
+    { "id": "de-05", "lang": "de", "question": "Was sagt die Prüfung zum Neubau des Archivdepots in Zollikofen?", "expected": [25615] },
+    { "id": "de-06", "lang": "de", "question": "Was sagt die EFK zur wirtschaftlichen Versorgungssicherheit auf der Netzseite?", "expected": [25331] },
+    { "id": "de-07", "lang": "de", "question": "Welche Erkenntnisse liefert die Prüfung zum Gebäudeprogramm?", "expected": [23316] },
+
+    { "id": "en-01", "lang": "en", "question": "What are the audit findings on the e-ID key project?", "expected": [25277] },
+    { "id": "en-02", "lang": "en", "question": "What did the EFK find about Skyguide's business continuity management?", "expected": [25705] },
+    { "id": "en-03", "lang": "en", "question": "What did the audit conclude about the use of artificial intelligence?", "expected": [25732, 25407] },
+    { "id": "en-04", "lang": "en", "question": "What did the EFK find about the secure mobile broadband communication project for public safety?", "expected": [24163] },
+
+    { "id": "it-01", "lang": "it", "question": "Cosa ha rilevato il CDF sulla vigilanza in materia di sicurezza sul lavoro?", "expected": [24652] },
+    { "id": "it-02", "lang": "it", "question": "Come è stata attuata la strategia per lo sviluppo sostenibile 2030?", "expected": [25384] },
+    { "id": "it-03", "lang": "it", "question": "Cosa rileva il CDF sulla composizione degli organi di vigilanza e di controllo?", "expected": [25514] },
+    { "id": "it-04", "lang": "it", "question": "Cosa emerge sulla pianificazione finanziaria del Fondo per l'infrastruttura ferroviaria?", "expected": [25731] }
+  ]
+}
